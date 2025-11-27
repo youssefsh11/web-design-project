@@ -1,0 +1,118 @@
+.donations{
+    padding: 40px 0 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.donations-hero{
+    background: linear-gradient(135deg, rgba(255,76,36,0.1), rgba(73,85,126,0.1));
+    border-radius: 30px;
+    padding: 40px;
+    text-align: center;
+}
+.donations-hero .badge{
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background: white;
+    border: 1px solid #FF4C24;
+    color: #FF4C24;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.donations-hero h1{
+    font-size: max(3vw,34px);
+    color: #262626;
+    margin-bottom: 15px;
+}
+.donations-hero p{
+    color: #49557E;
+    max-width: 680px;
+    margin: 0 auto 20px;
+    font-size: 18px;
+}
+.donations-cta button{
+    border: none;
+    background: #FF4C24;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.donations-options{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+}
+.donation-option{
+    border: 1px solid #E4E4E4;
+    border-radius: 20px;
+    padding: 25px;
+    background: white;
+}
+.donation-option h3{
+    color: #262626;
+    margin-bottom: 10px;
+}
+.donation-option p{
+    color: #747474;
+    line-height: 1.5;
+}
+.donations-form-section{
+    border: 1px solid #E4E4E4;
+    border-radius: 30px;
+    padding: 35px;
+    background: white;
+}
+.donations-form-section h2{
+    color: #262626;
+    margin-bottom: 10px;
+}
+.donations-form-section p{
+    color: #808080;
+    margin-bottom: 25px;
+}
+.donations-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.donations-form .form-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+}
+.donations-form input,
+.donations-form select{
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: 1px solid #E4E4E4;
+    font-size: 16px;
+    color: #49557E;
+}
+.donations-form button{
+    align-self: flex-start;
+    border: none;
+    background: #FF4C24;
+    color: white;
+    padding: 12px 32px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+@media (max-width:750px){
+    .donations{
+        padding: 20px 0 40px;
+    }
+    .donations-hero{
+        padding: 30px 20px;
+    }
+    .donations-form-section{
+        padding: 25px 20px;
+    }
+}
+
+
+

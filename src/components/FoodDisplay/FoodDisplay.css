@@ -1,0 +1,67 @@
+.food-display{
+    margin-top: 30px;
+}
+.food-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.food-display-controls{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.food-display-controls input{
+    flex: 1;
+    min-width: 220px;
+    padding: 10px 14px;
+    border-radius: 30px;
+    border: 1px solid #E4E4E4;
+    outline: none;
+    font-size: 15px;
+}
+.food-display-filters{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.food-display-filters button{
+    padding: 8px 18px;
+    border-radius: 30px;
+    border: 1px solid #E4E4E4;
+    background: white;
+    color: #49557E;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+}
+.food-display-filters button.active{
+    background: #FF4C24;
+    border-color: #FF4C24;
+    color: white;
+}
+.food-display-filters select{
+    padding: 8px 18px;
+    border-radius: 30px;
+    border: 1px solid #E4E4E4;
+    background: white;
+    color: #49557E;
+    font-size: 14px;
+}
+.food-display-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
+.food-display-empty{
+    width: 100%;
+    text-align: center;
+    color: #808080;
+    font-size: 18px;
+}

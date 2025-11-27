@@ -1,0 +1,21 @@
+.favorites-page{
+    margin-top: 50px;
+    min-height: 60vh;
+}
+.favorites-page h2{
+    font-size: max(2.2vw,26px);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.favorites-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    row-gap: 50px;
+}
+.favorites-empty{
+    margin-top: 30px;
+    color: #747474;
+    font-size: 16px;
+}
+
